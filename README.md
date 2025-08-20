@@ -53,20 +53,22 @@ This project was built as part of an assessment with the following goals:
 ---
 
 ## 🗂️ Project Structure
-ClientsApi/
-│ ClientApi.sln
-│ README.md
-│
-├── ClientApi/ # Main Web API project
-│ ├── Controllers/ # API controllers (ClientsController, TokenController)
-│ ├── Models/ # DTOs and domain models
-│ ├── Services/ # Business logic & CSV handling
-│ ├── Data/ # CSV data file
-│ ├── appsettings.json
-│ └── Program.cs
-│
-└── ClientApi.Tests/ # Unit test project (xUnit)
 
+```
+ClientsApi/
+│   ClientApi.sln
+│   README.md
+│
+├── ClientApi/                # Main Web API project
+│   ├── Controllers/          # API controllers (ClientsController, TokenController)
+│   ├── Models/               # DTOs and domain models
+│   ├── Services/             # Business logic & CSV handling
+│   ├── Data/                 # CSV data file
+│   ├── appsettings.json
+│   └── Program.cs
+│
+└── ClientApi.Tests/          # Unit test project (xUnit)
+```
 ---
 
 ## 🚀 Getting Started
