@@ -1,0 +1,16 @@
+# Ignore Visual Studio temporary files
+.vs/
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore Copilot metadata
+CopilotChatSessions/
+CopilotIndices/
+*.copilot
+
+# Ignore user-specific files
+*.user
+*.suo
+*.cache
